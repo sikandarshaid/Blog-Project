@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Oswald-VariableFont_wght';
+  src: url(./Oswald-VariableFont_wght.eot);
+  src: url(./Oswald-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+       url(./Oswald-VariableFont_wght.woff) format('woff'),
+       url(./Oswald-VariableFont_wght.svg#Oswald-VariableFont_wght) format('svg'),
+       url(./Oswald-VariableFont_wght.ttf) format('truetype');
+}

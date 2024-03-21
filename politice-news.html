@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political News Details</title>
+    <!-- =======css-link-start======= -->
+    <link rel="stylesheet" href="font/styles.css">
+    <link rel="stylesheet" href="font/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- =======css-link-end========= -->
+</head>
+
+<body>
+    <!-- ==========================Header-Start=============== -->
+    <header>
+        <div class="header-title">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="#"><img src="image/Logo.png" alt=""></a>
+                </div>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-block">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="humberger-open">
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                    <div class="d-none d-xxl-block">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active-home" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="our-team.html">
+                                    Our Team
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown">
+                                    Business News
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="business-news.html">Business News</a>
+                                        <a class="dropdown-item" href="business-details.html">Business Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown">
+                                    Politice
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="politice.html">Political</a></li>
+                                    <li><a class="dropdown-item" href="politice-news.html">Political Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown">Video</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="video.html">Video</a>
+                                        <a class="dropdown-item" href="video-details.html">Featured Video Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="author.html">Author</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sing-up">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass mx-4"></i></a>
+                        <a href="#" class="btn">Sign Up</a>
+                    </div>
+                </div>
+
+                <div class="mobile-sidebar">
+                    <a href="#" class="humberger-close"><i class="fa-solid fa-xmark"></i></a>
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active-home" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our-team.html">
+                                Our Team
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown">
+                                Business News
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="business-news.html">Business News</a>
+                                    <a class="dropdown-item" href="business-details.html">Business Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown">
+                                Politice
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="politice.html">Political</a></li>
+                                <li><a class="dropdown-item" href="politice-news.html">Political Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown">Video</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="video.html">Video</a>
+                                    <a class="dropdown-item" href="video-details.html">Featured Video Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="author.html">Author</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- ==========================Header-End================= -->
+    <!-- =====================Business-News-Header-Start============= -->
+    <section class="contact-bg">
+        <div class="container">
+            <div class="contact-header-title text-center">
+                <h2 class="header-two-title">Political News Deatils</h2>
+                <p class="ts-2">
+                    <a href="index.html">Home</a> - 
+                    <a href="politice.html">Politice</a> - 
+                    <a href="politice-news.html">Politicsl News</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- =====================Business-News-Header-End=============== -->
+    <!-- =====================Business-Details-Start================= -->
+    <section class="business-details-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="business-details-wrap">
+                        <div class="business-d-single-image">
+                            <img src="image/political-news.png" alt="business">
+                        </div>
+                        <div class="title-date-set d-flex justify-content-between align-items-center">
+                            <div class="bt">
+                                <span>Business</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                <p class="ms-4"><i class="fa-regular fa-clock"></i>10.00 PM</p>
+                            </div>
+                        </div>
+                        <div class="business-d-title">
+                            <h4>Market Trends, Politics, and Industry Updates</h4>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader . content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable as opposed to using 'Content .</p>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <blockquote>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                                <footer>
+                                    <div class="name">
+                                        <p>John Vector</p>
+                                    </div>
+                                    <div class="name-title">
+                                        <p>Business man</p>
+                                    </div>
+                                </footer>
+                            </blockquote>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <div class="business-d-single-image business-d-single-image-2">
+                                <img src="image/political-news-2.png" alt="business">
+                            </div>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader . content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable as opposed to using 'Content .</p>
+                        </div>
+                        <div class="recent-comment-wrap">
+                            <div class="recent-coment-title">
+                                <h3>Recent Comment</h3>
+                            </div>
+                            <div class="recent-single-comment">
+                                <div class="user-image">
+                                    <img src="image/footer-card-image-health.png" alt="">
+                                </div>
+                                <div class="user-title">
+                                    <div class="name-and-reply d-flex justify-content-between">
+                                        <div class="name">
+                                            <h4><a href="#">Ducket Smith</a></h4>
+                                            <p>17 mar 2024</p>
+                                        </div>
+                                        <div class="reply">
+                                            <a href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page distribution of letters, as opposed to using 'Content here, content here', making it look like </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-single-comment">
+                                <div class="user-image second-user">
+                                    <img src="image/footer-card-image-health.png" alt="">
+                                </div>
+                                <div class="user-title">
+                                    <div class="name-and-reply d-flex justify-content-between">
+                                        <div class="name">
+                                            <h4><a href="#">Ducket Smith</a></h4>
+                                            <p>17 mar 2024</p>
+                                        </div>
+                                        <div class="reply">
+                                            <a href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page distribution of letters, as opposed to using 'Content here, content here', making it look like </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-single-comment">
+                                <div class="user-image">
+                                    <img src="image/footer-card-image-health.png" alt="">
+                                </div>
+                                <div class="user-title">
+                                    <div class="name-and-reply d-flex justify-content-between">
+                                        <div class="name">
+                                            <h4><a href="#">Ducket Smith</a></h4>
+                                            <p>17 mar 2024</p>
+                                        </div>
+                                        <div class="reply">
+                                            <a href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page distribution of letters, as opposed to using 'Content here, content here', making it look like </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leave-a-comment">
+                            <div class="leave-a-comment-title">
+                                <h3>Leave A Comment</h3>
+                            </div>
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="text">Your Name*</label>
+                                        <input type="text" class="form-control" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email">Your E-Mail*</label>
+                                        <input type="email" class="form-control" placeholder="Your E-mail">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="text">Your Comment*</label>
+                                        <textarea class="form-control" placeholder="Your Comment"></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn">Post a Comment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="search-bar">
+                        <form action="">
+                            <div class="search-button">
+                                <input class="form-control" type="text" placeholder="Default Search">
+                                <button type="button" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="business-news-catagory">
+                        <div class="catagory-title">
+                            <h3>Catagory</h3>
+                        </div>
+                        <div class="catagory-item">
+                            <ul>
+                                <li>
+                                    <a href="#"><span>Political</span> <span>(2)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>Business</span> <span>(8)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>Finance</span> <span>(3)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>Entertainment</span> <span>(6)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="business-catagory-recent-post">
+                        <h3>Recent Post</h3>
+                        <div class="recent-post-item">
+                            <div class="recent-post-single-item">
+                                <div class="recent-post-image">
+                                    <img src="image/recent-post-single-item-1.png" alt="">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                    <p class="ts-3">Your Guide to Nutrient-Rich Veggies</p>
+                                </div>
+                            </div>
+                            <div class="recent-post-single-item">
+                                <div class="recent-post-image">
+                                    <img src="image/recent-post-single-item-2.png" alt="">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                    <p class="ts-3">Your Guide to Nutrient-Rich Veggies</p>
+                                </div>
+                            </div>
+                            <div class="recent-post-single-item">
+                                <div class="recent-post-image">
+                                    <img src="image/recent-post-single-item-3.png" alt="">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                    <p class="ts-3">Your Guide to Nutrient-Rich Veggies</p>
+                                </div>
+                            </div>
+                            <div class="recent-post-single-item">
+                                <div class="recent-post-image">
+                                    <img src="image/recent-post-single-item-4.png" alt="">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                    <p class="ts-3">Your Guide to Nutrient-Rich Veggies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <div class="tag-title">
+                            <h3>Tags</h3>
+                            <ul>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Entertainment</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Science</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====================Business-Details-End=================== -->
+    <!-- =====================Footer-Start=========================== -->
+    <footer class="footer-bg">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-logo-site">
+                            <img src="image/Logo.png" alt="">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.The point of using Lorem Ipsum is that</p>
+                            <div class="social-icon">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-catagory">
+                            <p class="title">News Category</p>
+                            <ul class="">
+                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a class="" href="about-us.html">About us</a></li>
+                                <li><a class="" href="business-news.html">Business</a></li>
+                                <li><a class="" href="politice.html">Politice</a></li>
+                                <li><a class="" href="our-team.html">Our Team</a></li>
+                                <li><a class="" href="video.html">Video</a></li>
+                                <li><a class="" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-catagory">
+                            <p class="title">Popular News</p>
+                            <div class="footer-card footer-card-m">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <div class="footer-card-image">
+                                            <img src="image/footer-card-image-health.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="footer-card-title">
+                                            <span class="bt">Health</span>
+                                            <h3>Medical Tips, Wellness Advice Healthcare Developments</h3>
+                                            <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-card">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <div class="footer-card-image">
+                                            <img src="image/footer-card-image-fashion.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="footer-card-title">
+                                            <span class="bt">Faction</span>
+                                            <h3>United States of America Growth Projection Reach New</h3>
+                                            <p><i class="fa-solid fa-calendar-days"></i>08 June 2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =====================Footer-End============================= -->   
+    <!-- =======script-link-start======= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- =======script-link-end========= -->
+</body>
+
+</html>

@@ -1,0 +1,636 @@
+/* Desktop version */
+@media (min-width: 992px) and (max-width: 1400px){
+    /* ===========Popular-Catagory-Start===== */
+    .popular-catagory-title span::after {
+        left: 25%;
+    }
+    .single-popular-extra-card .ms-4{
+        margin-left: 0 !important;
+    }
+    .single-popular-extra-card .d-flex{
+        display: block !important ;
+    }
+    .single-popular-catagory .d-flex{
+        display: block !important;
+    }
+    .single-popular-catagory .d-flex p{
+        margin-left: 0 !important;
+    }
+    /* ===========Popular-Catagory-End===== */
+    /* ===========General-News-Start========= */
+    .general-single-title .d-flex p{
+        font-size: 15px;
+    }
+    .general-single-title .d-flex .ms-4{
+        margin-left: 10px !important;
+    }
+    /* ===========General-News-End=========== */
+    /* ===========Featured-Video-Start======= */
+    .feature-video-card-text .d-flex{
+        display: block !important;
+    }
+    .feature-video-card-text .d-flex p{
+        margin-left: 0 !important;
+    }
+    .feature-video-side-card .video-icon i {
+        margin-bottom: 5px;
+    }
+    /* ===========Featured-Video-End========= */
+    /* ===========Footer-Start============== */
+    .footer-catagory {
+        margin-left: 0;
+    }
+    /* ===========Footer-End================ */
+
+}
+
+/* Laptop version */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ===========Recent-news-start========== */
+    .recent-news .all-news {
+        margin-top: 40px;
+    }
+    .side-news-image{
+        height: 139px;
+        overflow: hidden;
+    }
+    .side-news-image img{
+        height: auto;
+    }
+    /* ===========Recent-news-End============ */
+    /* ===========Post-Catagory-Start======== */
+    .post-catagory-single-item .post-single-image {
+        min-height: 0;
+    }
+    .post-catagory-single-item .post-single-title span {
+        margin: 20px 0;
+    }
+    .post-catagory-single-item .post-single-title .ts-1 {
+        margin-bottom: 20px;
+    }
+    .post-catagory-title {
+        display: block;
+    }
+    .post-catagory-title h2{
+        margin-bottom: 25px;
+    }
+    .post-catagory-title ul {
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+    }
+    /* ===========Post-Catagory-End========== */
+    /* ===========Popular-Catagory-Start===== */
+    .single-popular-extra-card-wrap{
+        margin-top: 24px;
+    }
+    /* ===========Popular-Catagory-End===== */
+    /* ===========Featured-Video-Start======= */
+    .feature-video-side-card .video-icon i {
+        margin-bottom: 5px;
+    }
+    .feature-video-card-text .d-flex{
+        display: block !important;
+    }
+    .feature-video-card-text .d-flex p{
+        margin-left: 0 !important;
+    }
+    /* ===========Featured-Video-End========= */
+    /* ===========Footer-Start============== */
+    .footer-catagory .title {
+        margin-top: 30px;
+    }
+    .footer-card-image {
+        height: 119px;
+    }
+    .footer-card-image img{
+        height: auto;
+    }
+    /* ===========Footer-End================ */
+
+    /* ===================About-Us-Start=================== */
+    .about-first-us-bg {
+        padding: 80px 0 40px;
+    }
+    .about-us-first-title h2 {
+        margin-top: 24px;
+    }
+    /* ===================About-Us-End===================== */
+
+    /* ===================Contact-Page-Start=============== */
+    /* ===========Contact-Header-Start======= */
+    .contact-bg{
+        padding: 80px 0;
+    }
+    .contact-media-wrap{
+        margin-bottom: 24px;
+    }
+    .popular-catagory-title span::after {
+        left: 36%;
+    }
+    /* ===========Contact-Header-End========= */
+    /* ===================Contact-Page-End================= */
+    /* =====================Auther-Speech-Start============= */
+    .speech-profile-image img {
+        height: 100%;
+    }
+    /* =====================Auther-Speech-End=============== */
+    /* =====================Business-Details-Start========== */
+    .business-details-bg {
+        padding: 60px 0;
+    }
+    .leave-a-comment form button {
+        margin-bottom: 40px;
+    }
+    .recent-comment-wrap {
+        margin: 40px 0;
+    }
+    /* =====================Business-Details-End============ */
+}
+
+/* Tablet version */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* ===========Recent-news-Start========== */
+    .recent-news {
+        padding: 60px 0;
+    }
+    .recent-news .all-news {
+        margin-top: 40px;
+    }
+    .side-news-image{
+        height: 165px;
+        overflow: hidden;
+    }
+    .side-news-image img{
+        height: auto;
+    }
+    /* ===========Recent-news-End============ */
+    /* ===========Post-Catagory-Start======== */
+    .post-catagory-bg {
+        padding: 60px 0;
+    }
+    .post-catagory-title {
+        display: block;
+    }
+    .post-catagory-title h2{
+        margin-bottom: 25px;
+    }
+    .post-catagory-title ul {
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+    }
+    .post-catagory-single-item{
+        margin-top: 30px;
+    }
+    .post-catagory-single-item .post-single-title span {
+        margin: 20px 0;
+    }
+    .post-catagory-single-item .post-single-title .ts-1 {
+        margin-bottom: 15px;
+    }
+    /* ===========Post-Catagory-End========== */
+    /* ===========Popular-Catagory-Start===== */
+    .popular-catagory-bg {
+        padding: 60px 0;
+    }
+    .popular-catagory-title span::after {
+        left: 50%;
+    }
+    .single-popular-extra-card-wrap{
+        margin-top: 24px;
+    }
+    .single-popular-extra-card .ts-1 {
+        margin: 24px 0;
+    }
+    .single-popular-extra-card .ms-4 {
+        margin-left: 10px !important;
+    }
+    .single-popular-extra-card p {
+        font-size: 13px;
+    }
+    /* ===========Popular-Catagory-End======= */
+    /* ===========General-News-Start========= */
+    .general-news-bg {
+        padding: 60px 0;
+    }
+    .general-single-title .d-flex p{
+        font-size: 13px;
+    }
+    /* ===========General-News-End=========== */
+    /* ===========Featured-Video-Start======= */
+    .feature-video-catagory {
+        margin-bottom: 24px;
+    }
+    .feature-video-bg {
+        padding: 60px 0;
+    }
+    .feature-video-side-card .video-icon i {
+        margin-bottom: 20px;
+    }
+    .feature-video-card h3 {
+        margin: 15px 0;
+    }
+    /* ===========Featured-Video-End========= */
+    /* ===========Letest-News-Start========== */
+    .Letest-news-bg {
+        padding: 60px 0;
+    }
+    .letest-side-image {
+        margin-bottom: 30px;
+    }
+    .letest-side-title h2{
+        font-size: 26px;
+        margin: 18px 0;
+    }
+    /* ===========Letest-News-End============ */
+    /* ===========Footer-Start============== */
+    .footer-bg {
+        padding: 60px 0;
+    }
+    .footer-catagory {
+        margin-left: 0;
+    }
+    .footer-catagory .title {
+        margin-top: 30px;
+    }
+    .footer-card-image {
+        height: 119px;
+    }
+    /* ===========Footer-End================ */
+
+
+    /* ===================About-Us-Start=================== */
+    .about-us-first-title-image {
+        height: 338px;
+    }
+    .about-us-first-title-image img{
+        height: auto;
+    }
+    .about-first-us-bg {
+        padding: 60px 0 30px;
+    }
+    .about-us-first-title h2 {
+        margin-top: 24px;
+    }
+    .about-us-discription-bg .discription-image {
+        height: 385px;
+    }
+    /* ===================About-Us-End===================== */
+
+    /* ===================Contact-Page-Start=============== */
+    /* ===========Contact-Header-Start======= */
+    .contact-bg {
+        padding: 80px 0;
+    }
+    .contact-by-social {
+        padding: 60px 0 40px;
+    }
+    .contact-media-wrap{
+        margin-bottom: 24px;
+    }
+    .contact-form h2 {
+        margin-bottom: 60px;
+    }
+    .contact-slider-bg {
+        padding: 60px 0;
+    }
+
+    /* ===========Contact-Header-End========= */
+    /* ===================Contact-Page-End================= */
+
+    /* ===================Our-Team-Start=================== */
+    .our-team-mamber-bg {
+        padding: 60px 0;
+    }
+    .best-service-bg {
+        padding-bottom: 60px;
+    }
+    /* ===================Our-Team-End===================== */
+    /* =====================Auther-Speech-Start============= */
+    .speech-bg {
+        padding: 60px 0;
+    }
+    .single-speech-item {
+        flex-flow: wrap;
+    }
+    .speech-profile-image {
+        margin: auto;
+    }
+    .speech-profile-title .profile .right-border {
+        width: 42%;
+    }
+    .speech-profile-title {
+        margin-top: 24px;
+      }
+    /* =====================Auther-Speech-End=============== */
+    /* =====================Business-Details-Start========== */
+    .business-details-bg {
+        padding: 60px 0;
+    }
+    .leave-a-comment form button {
+        margin-bottom: 40px;
+    }
+    .recent-comment-wrap {
+        margin: 40px 0;
+    }
+    /* =====================Business-Details-End============ */
+} 
+
+/* mobile version */
+@media (max-width: 575px) {
+    h2 {
+        font-size: 24px;
+    }
+    /* ===================Home-Page-Start==================== */
+    /* ===========Header-part-start========== */
+    .social-icon i {
+        height: 30px;
+        width: 30px;
+        line-height: 26px;
+        margin-left: 8px;
+        font-size: 16px;
+    }
+    .mobile-sidebar{
+        width: 80%;
+    }
+    .mobile-sidebar .nav-item .nav-link {
+        margin-bottom: 0;
+        border-bottom: 0.75px solid #b9b9b9;
+    }
+    /* ===========Header-part-End============ */
+    /* ===========Recent-news-start========== */
+    .recent-news {
+        padding: 60px 0;
+    }
+    .recent-news .all-news {
+        margin-top: 28px;
+    }
+    .side-news-title .ts-1 {
+        font-size: 12px;
+    }
+    .recent-news .all-news {
+        margin-top: 40px;
+    }
+    .recent-news .all-news {
+        margin-top: 40px;
+    }
+    .side-news-image{
+        height: 250px;
+        overflow: hidden;
+    }
+    .side-news-image img{
+        height: auto;
+    }
+    .side-news-title .bt{
+        margin-top: 20px;
+    }
+    /* ===========Recent-news-End============ */
+    /* ===========Post-Catagory-Start======== */
+    .post-catagory-bg {
+        padding: 60px 0;
+    }
+    .post-catagory-title ul{
+        padding-left: 0;
+        justify-content: start;
+    }
+    .post-catagory-title ul li a{
+        margin-top: 15px;
+    }
+    .post-catagory-title {
+        display: block !important;
+    }
+    .post-catagory-title .navbar {
+        margin-top: 24px;
+    }
+    .post-catagory-single-item .post-single-image {
+        height: 258px;
+        overflow: hidden;
+    }
+    .post-catagory-single-item .post-single-image img{
+        height: auto;
+    }
+    .post-catagory-single-item {
+        margin-top: 30px;
+    }
+    .post-catagory-single-item .post-single-title .ts-1 {
+        margin-bottom: 16px;
+    }
+    .post-catagory-single-item .post-single-title span {
+        margin: 16px 0;
+    }
+    /* ===========Post-Catagory-End========== */
+    /* ===========Popular-Catagory-Start===== */
+        .popular-catagory-bg {
+            padding: 60px 0;
+        }
+        .popular-catagory-title span::after {
+            left: 56%;
+        }
+        .single-news-image {
+            overflow: hidden;
+        }
+        .single-news-image img{
+            height: auto;
+        }
+        .single-popular-title .ts-1 {
+            font-size: 17px !important;
+        }
+        .single-popular-title .d-flex {
+            display: block !important;
+        }
+        .single-popular-title .ms-4{
+            margin-left: 0 !important;
+        }
+        .single-popular-title p {
+            margin-bottom: 0;
+        }
+        .single-popular-extra-card {
+            margin-top: 20px;
+        }
+        .single-popular-extra-card {
+            height: 215px;
+        }
+    /* ===========Popular-Catagory-End======= */
+    /* ===========General-News-Start========= */
+    .general-news-bg {
+        padding: 60px 0;
+    }
+    .general-single-image {
+        height: 215px;
+    }
+    /* ===========General-News-End=========== */
+    /* ===========Featured-Video-Start======= */
+    .feature-video-catagory {
+        margin-bottom: 24px;
+    }
+    .feature-video-bg {
+        padding: 60px 0;
+    }
+    .feature-video-side-card .video-icon i {
+        margin-bottom: 0;
+    }
+    .feature-video-card h3 {
+        margin: 15px 0;
+    }
+    /* ===========Featured-Video-End========= */
+    /* ===========Letest-News-Start========== */
+    .Letest-news-bg {
+        padding: 60px 0;
+    }
+    .letest-single-title .ts-1 {
+        margin: 12px 0;
+        font-size: 16px !important;
+    }
+    .letest-single-title P{
+        font-size: 12px !important;
+    }
+    .letest-single-title .d-flex .ms-4{
+        margin-left: 14px !important;
+    }
+    .letest-single-image {
+        height: 155px;
+    }
+    .letest-side-image {
+        height: 205px;
+        margin-bottom: 30px;
+    }
+    .letest-side-title h2 {
+        margin: 18px 0;
+        font-size: 20px;
+    }
+    /* ===========Letest-News-End=========== */
+    /* ===========Footer-Start============== */
+    .footer-bg {
+        padding: 60px 0;
+    }
+    .footer-catagory {
+        margin-left: 0;
+    }
+    .footer-catagory .title {
+        margin-top: 30px;
+    }
+    .footer-card-image {
+        height: 119px;
+    }
+    /* ===========Footer-End================ */
+    /* ===================Home-Page-End==================== *
+
+    /* ===================About-Us-Start=================== */
+    .about-first-us-bg {
+        padding: 60px 0 40px;
+    }
+    .about-us-first-title-image {
+        height: 219px;
+    }
+    .about-us-first-title-image img{
+        height: auto;
+    }
+    .about-us-first-title h2 {
+        margin-top: 24px;
+    }
+    .about-us-discription-bg .discription-image {
+        height: 267px;
+    }
+    /* ===================About-Us-End===================== */
+
+    /* ===================Contact-Page-Start=============== */
+    /* ===========Contact-Header-Start======= */
+    .contact-bg {
+        padding: 70px 0;
+    }
+    .contact-by-social {
+        padding: 60px 0 40px;
+    }
+    .contact-media-wrap{
+        margin-bottom: 24px;
+    }
+    .contact-form h2{
+        margin-bottom: 60px;
+    }
+    .contact-form form .form-check-input {
+        margin-right: 10px;
+        padding: 5px;
+    }
+    /* ===========Contact-Header-End========= */
+    /* ===========Contact-Slider-Start======= */
+    .contact-slider-bg {
+        padding: 60px 0;
+      }
+    .contact-slider-bg .slider-image {
+        padding: 0;
+    }
+    .left-arrow {
+        left: 20px;
+    }
+    .left-arrow, .right-arrow {
+        background: #FFFFFFBF;
+        color: #FFFFFFBF;
+        top: 50%;
+        z-index: 999;
+    }
+    /* ===========Contact-Slider-End========= */
+    /* ===================Contact-Page-End================= */
+
+    /* ===================Our-Team-Start=================== */
+    .our-team-mamber-bg {
+        padding: 60px 0;
+    }
+    .best-service-bg {
+        padding-bottom: 60px;
+    }
+    /* ===================Our-Team-End===================== */
+
+    /* =====================Auther-Speech-Start============= */
+    .speech-bg {
+        padding: 60px 0;
+    }
+    .single-speech-item {
+        flex-flow: wrap;
+    }
+    .speech-profile-image {
+        margin: auto;
+    }
+    .speech-profile-title .profile .right-border {
+        width: 20%;
+    }
+    .speech-profile-title .profile {
+        margin-top: 24px;
+    }
+    .speech-profile-title .contact-me {
+        display: block;
+    }
+    .speech-profile-title .contact-me .social-link{
+        margin-bottom: 24px;
+    }
+    .author-letest-side-item {
+        margin-top: 24px;
+    }
+    .single-speech-item p{
+        text-align: justify;
+    }
+    .single-speech-item {
+        padding: 24px;
+    }
+    /* =====================Auther-Speech-End=============== */
+    /* =====================Business-Details-Start========== */
+    .business-details-bg {
+        padding: 40px 0;
+    }
+    .business-details-wrap .title-date-set p{
+        font-size: 14px;
+    }
+    .business-d-title blockquote {
+        padding: 30px 20px;
+    }
+    .recent-comment-wrap {
+        margin: 36px 0 32px;
+    }
+    .recent-single-comment .second-user {
+        margin-left: 0;
+    }
+    .leave-a-comment form button {
+        margin-bottom: 40px;
+    }
+    /* =====================Business-Details-End============ */
+}

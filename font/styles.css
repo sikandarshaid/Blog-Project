@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(poppins-font/Poppins-Regular.eot) format('embedded-opentype'),
+       url(poppins-font/Poppins-Regular.svg) format('svg'),
+       url(poppins-font/Poppins-Regular.ttf) format('truetype'),
+       url(poppins-font/Poppins-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'ArchivoBlack-Regular';
+  src: url(arcivo-black/ArchivoBlack-Regular.eot) format('embedded-opentype'),
+       url(arcivo-black/ArchivoBlack-Regular.svg) format('svg'),
+       url(arcivo-black/ArchivoBlack-Regular.ttf) format('truetype'),
+       url(arcivo-black/ArchivoBlack-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald-VariableFont_wght';
+  src: url(oswald-font/Oswald-VariableFont_wght.eot) format('embedded-opentype'),
+       url(oswald-font/Oswald-VariableFont_wght.svg) format('svg'),
+       url(oswald-font/Oswald-VariableFont_wght.svg) format('woff'),
+       url(oswald-font/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter-VariableFont_slnt,wght';
+  src: url(inter-variable-font/Inter-VariableFont_slnt\,wght.eot) format('embedded-opentype'),
+       url(inter-variable-font/Inter-VariableFont_slnt\,wght.svg) format('svg'),
+       url(inter-variable-font/Inter-VariableFont_slnt\,wght.ttf) format('truetype'),
+       url(inter-variable-font/Inter-VariableFont_slnt\,wght.woff) format('woff');
+}
+
+
+
