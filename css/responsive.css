@@ -36,6 +36,14 @@
         margin-bottom: 5px;
     }
     /* ===========Featured-Video-End========= */
+    /* =====================Featured-Video-Start============ */
+    .single-video-discription h2{
+        font-size: 24px;
+    }
+    .single-video-discription p{
+        font-size: 14px;
+    }
+    /* =====================Featured-Video-End============== */
     /* ===========Footer-Start============== */
     .footer-catagory {
         margin-left: 0;
@@ -146,6 +154,11 @@
         margin: 40px 0;
     }
     /* =====================Business-Details-End============ */
+    /* =====================Featured-Video-Start============ */
+    .single-video-discription .bt{
+        margin-top: 24px;
+    }
+    /* =====================Featured-Video-End============== */
 }
 
 /* Tablet version */
@@ -335,6 +348,17 @@
         margin: 40px 0;
     }
     /* =====================Business-Details-End============ */
+    /* =====================Featured-Video-Start============ */
+    .featured-video-bg{
+        padding: 60px 0;
+    }
+    .video-tag {
+        margin-bottom: 36px;
+    }
+    .single-video-discription .bt{
+        margin-top: 24px;
+    }
+    /* =====================Featured-Video-End============== */
 } 
 
 /* mobile version */
@@ -633,4 +657,16 @@
         margin-bottom: 40px;
     }
     /* =====================Business-Details-End============ */
+    /* =====================Featured-Video-Start============ */
+    .featured-video-bg{
+        padding: 40px 0;
+    }
+    .video-tag {
+        margin-bottom: 36px;
+        padding: 36px 24px;
+    }
+    .single-video-discription .bt{
+        margin-top: 24px;
+    }
+    /* =====================Featured-Video-End============== */
 }

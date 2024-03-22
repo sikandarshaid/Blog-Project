@@ -65,3 +65,7 @@ $('.your-class').slick({
 	  }
 	]
   });
+
+$('.technology-video a').magnificPopup({
+	type: 'iframe',
+});

@@ -1419,15 +1419,18 @@ p i{
 /* =======================================Business-Details-End============================== */
 
 /* =======================================Featured-Video-Start============================== */
-.single-video-part{
+.single-video-part:not(:first-child){
+    margin-top: 48px;
+}
 
-}
-.single-video-image{
-    height: 100%;
-    overflow: hidden;
+
+
+/* video style */
+.video-single{
     position: relative;
+    height: 100%;
 }
-.single-video-image::after{
+.video-single::after{
     content: '';
     position: absolute;
     top: 0;
@@ -1436,23 +1439,39 @@ p i{
     height: 100%;
     background: rgba(0, 0, 0, .3);
 }
-.single-video-image img{
+.video-thumnail{
+    height: 100%;
+    overflow: hidden;
+}
+.video-single img{
     width: 100%;
     height: 100%;
 }
-.single-video-image i{
+.video-single .technology-video i{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    height: 30px;
-    width: 30px;
+    font-size: 23px;
     text-align: center;
-    line-height: 30px;
-    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    line-height: 46px;
+    border: 2px solid #FFFFFF;
     border-radius: 50%;
+    z-index: 111;
 }
+/* video style */
+
+
+
+
+
+
+
+
+
 .single-video-discription h2{
     color: #000000CC;
     margin: 14px 0;
